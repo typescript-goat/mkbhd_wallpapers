@@ -1,0 +1,13 @@
+{
+  "name": "mkbhd_wallpapers",
+  "version": "1.0.0",
+  "description": "underpriced wallpapers, by mkbhd",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "wallpapers": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
